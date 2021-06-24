@@ -1,5 +1,5 @@
 This is NOT a shell, just a prompt written in C++,
 You can chsh-it, but I wouldn't recommend:
 
-sudo chsh -s /path/to/compiled/prompt
 chsh -s /path/to/compiled/prompt
+

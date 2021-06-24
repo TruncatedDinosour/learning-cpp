@@ -15,4 +15,3 @@ strip:
 	${CXX} main.cpp ${CXXFLAGS} -o main ${LDFLAGS}
 	strip ${SFLAGS} main -v -o main
 
-install: compile
