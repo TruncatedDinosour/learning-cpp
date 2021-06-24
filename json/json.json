@@ -1,0 +1,10 @@
+{
+  "name": "john",
+  "licenses": [null],
+  "isStupid": true,
+  "children": {
+    "peter": 11,
+    "jake": 73,
+    "minus": -2
+  }
+}
