@@ -1,1 +1,8 @@
 This is just for learning, Please don't use this.
+
+If you decide to use it (why???):
+
+#include "./include/thing/Thing.dep.hpp"
+#include "./include/thing/Thing.hpp"
+
+// ... code ...

@@ -1,0 +1,6 @@
+OVERLOAD CONVERSION
+
+MY_CLASS::operator unsigned TYPE() const
+{
+    // code
+}

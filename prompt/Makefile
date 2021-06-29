@@ -1,6 +1,6 @@
 CXX = g++
 CXXFLAGS = -std=c++20 -Wall -Wextra -Wpedantic -ffunction-sections -fdata-sections -Wno-c++98-compat -O3 -s -g
-LDFLAGS = -Wl,--gc-sections,-strip-all
+LDFLAGS = -Wl,--gc-sections,--strip-all
 SFLAGS = --strip-all --remove-section=.note --remove-section=.comment --strip-debug --strip-unneeded
 
 
@@ -14,4 +14,3 @@ compile:
 strip:
 	${CXX} main.cpp ${CXXFLAGS} -o main ${LDFLAGS}
 	strip ${SFLAGS} main -v -o main
-
