@@ -1,0 +1,5 @@
+(directly working with Python.h)
+to works with VScode add "/usr/include/**" to your includepath
+also modify the makefile to have added CXX flags of python-config --cflags
+and LDFLAGS python-config --ldflags
+also add -I/usr/include/python3.9 in cxxflags
