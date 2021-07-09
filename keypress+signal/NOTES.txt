@@ -1,0 +1,1 @@
+add -lX11 to CXXFLAGS
