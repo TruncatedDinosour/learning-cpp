@@ -1,5 +1,4 @@
 #include <iostream>
-#include <algorithm>
 
 unsigned long long int fib(unsigned long long int x) {
     if (x <= 1) {
