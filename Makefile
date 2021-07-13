@@ -1,5 +1,6 @@
 all:
 	@echo "run \"make clean\" to clean up"
+	@echo "run \"make git\" to push changes"
 
 clean:
 	-rm -fvi ./*/main
