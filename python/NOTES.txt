@@ -1,5 +1,11 @@
-(directly working with Python.h)
-to works with VScode add "/usr/include/**" to your includepath
-also modify the makefile to have added CXX flags of python-config --cflags
-and LDFLAGS python-config --ldflags
-also add -I/usr/include/python3.9 in cxxflags
+Working directly with python header.
+
+ * Make sure you have both ld and c flags with python config in your makefile
+ * Make sure you have /usr/include/python3(.x) in your IncludePath if you're getting any errors
+
+>> cflags:
+ python3-config --cflags --includes --libs --embed
+>> ldflags:
+ python3-config --ldflags --embed
+
+Look at the makefile for an example.
