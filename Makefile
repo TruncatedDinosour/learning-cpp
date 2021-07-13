@@ -6,5 +6,5 @@ clean:
 
 git:
 	git add .
-	git commit -m "update @ $(date)"
+	git commit -m "update @ $(shell date)"
 	git push -u origin master
