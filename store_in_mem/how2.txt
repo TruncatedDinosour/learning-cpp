@@ -1,0 +1,9 @@
+commands:
+    qq (quit quickly) = quit
+    dh (data s*h*ow) = show data
+    ds (data store) = store data
+    dp (data pointer) = show the buffer pointer
+    dc (data clear) = clear the buffer out
+    dd (data dump) = dump the buffer into a file
+    da (data append) = append data
+    dl (data load) = load data from a file
